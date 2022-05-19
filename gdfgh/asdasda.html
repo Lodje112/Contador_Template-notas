@@ -1,0 +1,14 @@
+<script>
+    var N = parseFloat(prompt(""))
+    var banana = 0
+    for(i=1;i<=N;i++){
+        var n = parseFloat(prompt("notas"))
+        if(0<n>10){
+            break
+        }else if(n>=7){
+            banana++
+        }
+    }
+    document.write(banana)
+    // 0>=N<=10
+</script>
